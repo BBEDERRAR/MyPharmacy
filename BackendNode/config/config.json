@@ -1,8 +1,8 @@
 {
   "development": {
-    "accountSid": "ACd3b4d2b96c4d8dfe1bbed3efe259a93d",
-    "authToken": "3b78731a8e2fbdf654a31e4725f905a4",
-    "phoneNumber": "+16262391805",
+    "accountSid": "",
+    "authToken": "",
+    "phoneNumber": "",
     "secret": "worldisfullofdevelopers",
     "username": "root",
     "password": null,
@@ -12,9 +12,9 @@
     "operatorsAliases": false
   },
   "test": {
-    "accountSid": "ACd3b4d2b96c4d8dfe1bbed3efe259a93d",
-    "authToken": "3b78731a8e2fbdf654a31e4725f905a4",
-    "phoneNumber": "+16262391805",
+     "accountSid": "",
+    "authToken": "",
+    "phoneNumber": "",
     "secret": "worldisfullofdevelopers",
     "username": "root",
     "password": null,
@@ -24,9 +24,9 @@
     "operatorsAliases": false
   },
   "production": {
-    "accountSid": "ACd3b4d2b96c4d8dfe1bbed3efe259a93d",
-    "authToken": "3b78731a8e2fbdf654a31e4725f905a4",
-    "phoneNumber": "+16262391805",
+    "accountSid": "",
+    "authToken": "",
+    "phoneNumber": "",
     "secret": "worldisfullofdevelopers",
     "username": "root",
     "password": null,
