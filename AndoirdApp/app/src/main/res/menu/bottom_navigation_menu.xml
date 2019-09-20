@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nearbyPharmaciesFragment"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Nearby"/>
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"/>
+
+    <item
+            android:id="@+id/orderListFragment"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Orders"/>
+    <item
+            android:id="@+id/loginFragment"
+            android:icon="@drawable/ic_person_primary_24dp"
+            android:title="@string/Login"/>
+
+</menu>

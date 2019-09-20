@@ -1,0 +1,584 @@
+{
+	"id": "3644e821-39cb-1929-b69f-f07ea404e44c",
+	"name": "Mobile Project",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "City CRUD",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"order": [
+				"259df3ec-30f8-f039-2143-6ce0bc812d6b",
+				"ba74bb16-63a9-c1a6-409b-f285ce65e12e",
+				"e19d1e4e-45b4-93eb-aef3-7492e5d7aa71",
+				"797ed225-d0b7-fde6-98b9-8a9ba4a5301f",
+				"798e44be-e805-eef2-34e1-c17bfe562761",
+				"f3457a30-628d-4a59-cf71-08ce36fe90bc"
+			],
+			"owner": "2603382",
+			"folders_order": [],
+			"id": "ecfec942-890c-e064-90df-66d6e94c15f3"
+		},
+		{
+			"name": "Order CRUD",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"order": [
+				"db6e18c8-ac49-73e8-e971-d741d8bfe29c",
+				"c30d488f-7d44-6129-80f9-5f2dea6ed186",
+				"3a0580c4-9f6a-c7ba-3edf-597f00b32ca5",
+				"02ea1929-a01c-80f0-8acc-84b01211af36",
+				"e064e0c4-6239-af17-0e04-d03747af2f48"
+			],
+			"owner": "2603382",
+			"folders_order": [],
+			"id": "de4e5956-936c-ba61-815e-6eff18e5d0c5"
+		},
+		{
+			"name": "Pharmacy CRUD",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"order": [
+				"79ca4654-28c7-9408-6b76-36f1fb8c91b0",
+				"e3104d2e-f1b0-2362-8b9a-45e7ba5f5254",
+				"f389d7b4-99c6-02d9-fcae-7f8c2f5c45e9",
+				"0d481099-8824-86cb-8282-65250d4e4b78"
+			],
+			"owner": "2603382",
+			"folders_order": [],
+			"id": "7af5bd78-8010-a5d8-b7de-1733149c0604"
+		},
+		{
+			"name": "User  Authentification",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"order": [
+				"7b6ce00a-7141-7dc5-320e-0772b7c6e098",
+				"3a22c811-7665-7b9a-597b-c0ca17fe846f"
+			],
+			"owner": "2603382",
+			"folders_order": [],
+			"id": "98d65dd6-e667-2a9d-55be-f4e0f5029aae"
+		}
+	],
+	"folders_order": [
+		"98d65dd6-e667-2a9d-55be-f4e0f5029aae",
+		"7af5bd78-8010-a5d8-b7de-1733149c0604",
+		"ecfec942-890c-e064-90df-66d6e94c15f3",
+		"de4e5956-936c-ba61-815e-6eff18e5d0c5"
+	],
+	"timestamp": 1566078477493,
+	"owner": "2603382",
+	"public": false,
+	"requests": [
+		{
+			"id": "02ea1929-a01c-80f0-8acc-84b01211af36",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}api/v1/order",
+			"folder": "de4e5956-936c-ba61-815e-6eff18e5d0c5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1568373077631,
+			"name": "get All Orders",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "0d481099-8824-86cb-8282-65250d4e4b78",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}api/v1/pharmacy/12",
+			"folder": "7af5bd78-8010-a5d8-b7de-1733149c0604",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078750917,
+			"name": "Get Pharmacy By Id",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "259df3ec-30f8-f039-2143-6ce0bc812d6b",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/city",
+			"folder": "ecfec942-890c-e064-90df-66d6e94c15f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078705972,
+			"name": "Add City",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\t\"team_name\" : \"ASO\",\n\t\"continent\" : \"AFRICA\"\n}"
+		},
+		{
+			"id": "3a0580c4-9f6a-c7ba-3edf-597f00b32ca5",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}api/v1/order/1",
+			"folder": "de4e5956-936c-ba61-815e-6eff18e5d0c5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1568373067087,
+			"name": "Get Order By Id",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "3a22c811-7665-7b9a-597b-c0ca17fe846f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/user/sign_up",
+			"folder": "98d65dd6-e667-2a9d-55be-f4e0f5029aae",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566105710424,
+			"name": "Sign Up",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\t\"firstName\":\"Allaeddine\",\n\t\"lastName\":\"BEDERRAR\",\n\t\"phone\":\"+213657058126\",\n\t\"nss\":\"0908\"\n}"
+		},
+		{
+			"id": "797ed225-d0b7-fde6-98b9-8a9ba4a5301f",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}api/v1/city/1",
+			"folder": "ecfec942-890c-e064-90df-66d6e94c15f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078661043,
+			"name": "Get City By Id",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "798e44be-e805-eef2-34e1-c17bfe562761",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/city/1/pharmacies",
+			"folder": "ecfec942-890c-e064-90df-66d6e94c15f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078648268,
+			"name": "Fetch All Pharmacies By City_ID",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "79ca4654-28c7-9408-6b76-36f1fb8c91b0",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/pharmacy",
+			"folder": "7af5bd78-8010-a5d8-b7de-1733149c0604",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078740074,
+			"name": "Add Pharmacy",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\t\"first_name\" : \"Allaeddine\",\n\t\"last_name\" : \"BEDERRAR\",\n\t\"age\" : 24,\n\t\"height\" : 176,\n\t\"team_id\" : 1\n}"
+		},
+		{
+			"id": "7b6ce00a-7141-7dc5-320e-0772b7c6e098",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/user/authenticate",
+			"folder": "98d65dd6-e667-2a9d-55be-f4e0f5029aae",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1567020610818,
+			"name": "Login",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\t\"phone\" : \"+213657058126\",\n\t\"password\" : \"krq5Hg\"\n}"
+		},
+		{
+			"id": "ba74bb16-63a9-c1a6-409b-f285ce65e12e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/city/1",
+			"folder": "ecfec942-890c-e064-90df-66d6e94c15f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078702307,
+			"name": "Edit City",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\t\"team_name\" : \"ASO Chlef\",\n\t\"continent\" : \"AFRICA\"\n}"
+		},
+		{
+			"id": "c30d488f-7d44-6129-80f9-5f2dea6ed186",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/order/1",
+			"folder": "de4e5956-936c-ba61-815e-6eff18e5d0c5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1568373169872,
+			"name": "Edit Order",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\n\t\"status\" : \"in processing\"\n}"
+		},
+		{
+			"id": "db6e18c8-ac49-73e8-e971-d741d8bfe29c",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsImlhdCI6MTU0NjMzMjg2NH0.PIYTJ1p4DJi2C9PPpwnrolkoKqdEoYRUutw9_76DyJo",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/order",
+			"folder": "de4e5956-936c-ba61-815e-6eff18e5d0c5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1568373301868,
+			"name": "Add City",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\t\"user_id\" : \"1\",\n\t\"pharmacy_id\" : \"1\"\n}"
+		},
+		{
+			"id": "e064e0c4-6239-af17-0e04-d03747af2f48",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}api/v1/order/1/my_orders",
+			"folder": "de4e5956-936c-ba61-815e-6eff18e5d0c5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1568453990017,
+			"name": "get All Orders By userID",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "e19d1e4e-45b4-93eb-aef3-7492e5d7aa71",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/city/1",
+			"folder": "ecfec942-890c-e064-90df-66d6e94c15f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078681606,
+			"name": "Delete City",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "e3104d2e-f1b0-2362-8b9a-45e7ba5f5254",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/pharmacy/1",
+			"folder": "7af5bd78-8010-a5d8-b7de-1733149c0604",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078744322,
+			"name": "Edit Pharmacy",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": [],
+			"rawModeData": "{\n\t\"ar_name\" : \"مسلم\",\n\t\"en_name\" : \"muslim\"\n}"
+		},
+		{
+			"id": "f3457a30-628d-4a59-cf71-08ce36fe90bc",
+			"headers": "",
+			"headerData": [],
+			"url": "{{url}}api/v1/city",
+			"folder": "ecfec942-890c-e064-90df-66d6e94c15f3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078649941,
+			"name": "get All Cities",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		},
+		{
+			"id": "f389d7b4-99c6-02d9-fcae-7f8c2f5c45e9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url}}api/v1/pharmacy/1",
+			"folder": "7af5bd78-8010-a5d8-b7de-1733149c0604",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566078747751,
+			"name": "Delete Pharmacy",
+			"description": "",
+			"collectionId": "3644e821-39cb-1929-b69f-f07ea404e44c",
+			"responses": []
+		}
+	]
+}

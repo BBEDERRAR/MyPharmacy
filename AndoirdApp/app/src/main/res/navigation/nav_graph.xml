@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/mainFragment">
+    <fragment android:id="@+id/loginFragment" android:name="esi.tdm.mypharmacy.fragments.LoginFragment"
+              android:label="fragment_login" tools:layout="@layout/fragment_login">
+        <action android:id="@+id/action_loginFragment_to_signUpFragment" app:destination="@+id/signUpFragment"/>
+        <action android:id="@+id/action_loginFragment_to_changePasswordFragment"
+                app:destination="@id/changePasswordFragment"/>
+        <action android:id="@+id/action_loginFragment_to_mainFragment" app:destination="@id/mainFragment"/>
+    </fragment>
+    <fragment android:id="@+id/signUpFragment" android:name="esi.tdm.mypharmacy.fragments.SignUpFragment"
+              android:label="fragment_sign_up" tools:layout="@layout/fragment_sign_up">
+        <action android:id="@+id/action_signUpFragment_to_loginFragment" app:destination="@id/loginFragment"/>
+    </fragment>
+    <fragment android:id="@+id/changePasswordFragment"
+              android:name="esi.tdm.mypharmacy.fragments.ChangePasswordFragment"
+              android:label="fragment_change_password" tools:layout="@layout/fragment_change_password"/>
+    <fragment android:id="@+id/mainFragment" android:name="esi.tdm.mypharmacy.fragments.MainFragment"
+              android:label="fragment_main" tools:layout="@layout/fragment_main">
+        <action android:id="@+id/action_mainFragment_to_pharmaciesListFragment"
+                app:destination="@id/pharmaciesListFragment"/>
+    </fragment>
+    <fragment android:id="@+id/pharmaciesListFragment"
+              android:name="esi.tdm.mypharmacy.fragments.PharmaciesListFragment"
+              android:label="fragment_pharmacies_list" tools:layout="@layout/fragment_pharmacies_list">
+        <action android:id="@+id/action_pharmaciesListFragment_to_pharmacyDetailsFragment"
+                app:destination="@id/pharmacyDetailsFragment"/>
+    </fragment>
+    <fragment android:id="@+id/pharmacyDetailsFragment"
+              android:name="esi.tdm.mypharmacy.fragments.PharmacyDetailsFragment"
+              android:label="fragment_pharmacy_details" tools:layout="@layout/fragment_pharmacy_details">
+        <action android:id="@+id/action_pharmacyDetailsFragment_to_createOrderFragement"
+                app:destination="@id/createOrderFragement"/>
+        <action android:id="@+id/action_pharmacyDetailsFragment_to_loginFragment" app:destination="@id/loginFragment"/>
+    </fragment>
+    <fragment android:id="@+id/createOrderFragement" android:name="esi.tdm.mypharmacy.fragments.CreateOrderFragement"
+              android:label="CreateOrderFragement">
+        <action android:id="@+id/action_createOrderFragement_to_orderListFragment"
+                app:destination="@id/orderListFragment"/>
+    </fragment>
+    <fragment android:id="@+id/orderListFragment" android:name="esi.tdm.mypharmacy.fragments.OrderListFragment"
+              android:label="OrderListFragment">
+        <action android:id="@+id/action_orderListFragment_to_loginFragment" app:destination="@id/loginFragment"/>
+    </fragment>
+    <fragment android:id="@+id/nearbyPharmaciesFragment"
+              android:name="esi.tdm.mypharmacy.fragments.NearbyPharmaciesFragment"
+              android:label="NearbyPharmaciesFragment">
+        <action android:id="@+id/action_nearbyPharmaciesFragment_to_pharmacyDetailsFragment"
+                app:destination="@id/pharmacyDetailsFragment"/>
+    </fragment>
+</navigation>

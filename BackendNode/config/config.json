@@ -1,0 +1,38 @@
+{
+  "development": {
+    "accountSid": "ACd3b4d2b96c4d8dfe1bbed3efe259a93d",
+    "authToken": "3b78731a8e2fbdf654a31e4725f905a4",
+    "phoneNumber": "+16262391805",
+    "secret": "worldisfullofdevelopers",
+    "username": "root",
+    "password": null,
+    "database": "mobile_backend",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "accountSid": "ACd3b4d2b96c4d8dfe1bbed3efe259a93d",
+    "authToken": "3b78731a8e2fbdf654a31e4725f905a4",
+    "phoneNumber": "+16262391805",
+    "secret": "worldisfullofdevelopers",
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "accountSid": "ACd3b4d2b96c4d8dfe1bbed3efe259a93d",
+    "authToken": "3b78731a8e2fbdf654a31e4725f905a4",
+    "phoneNumber": "+16262391805",
+    "secret": "worldisfullofdevelopers",
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}

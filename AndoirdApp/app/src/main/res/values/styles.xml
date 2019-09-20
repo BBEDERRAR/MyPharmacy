@@ -1,0 +1,69 @@
+<resources>
+    <!-- Base application theme. -->
+    <attr name="colorDisable" format="color"/>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Spinner</item>
+
+
+        <item name="android:colorBackground">@color/grey_dark</item>
+        <item name="colorDisable">@color/white_transparent</item>
+
+        <item name="colorPrimaryDark">?android:colorPrimary</item>
+        <item name="colorAccent">?android:colorPrimary</item>
+
+        <item name="android:fontFamily">@font/montserrat</item>
+
+        <item name="android:windowSoftInputMode">stateHidden</item>
+    </style>
+
+
+
+    <style name="EditText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+
+    <style name="Spinner"  parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Button.Inverse">
+        <item name="android:textColor">@color/button_text_inverse</item>
+    </style>
+
+    <style name="Button.Background">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="Button.Inverse.Background">
+        <item name="android:background">@drawable/button_background_inverse</item>
+    </style>
+
+    <style name="Button.Flat">
+        <item name="android:background">@drawable/button_flat</item>
+    </style>
+
+
+
+</resources>
